@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92DE7EB3AB3F59F398F254E2 /* Pods_ProyectoAlejandraV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3B511E70803577CCCACB74 /* Pods_ProyectoAlejandraV2.framework */; };
+		CE552DD0238728C5000DA4F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE552DCF238728C5000DA4F8 /* AppDelegate.swift */; };
+		CE552DD2238728C5000DA4F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE552DD1238728C5000DA4F8 /* SceneDelegate.swift */; };
+		CE552DD9238728CA000DA4F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE552DD8238728CA000DA4F8 /* Assets.xcassets */; };
+		CE552DDC238728CA000DA4F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE552DDA238728CA000DA4F8 /* LaunchScreen.storyboard */; };
+		CE552DE5238729D0000DA4F8 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE552DE4238729D0000DA4F8 /* Interest.swift */; };
+		CE552DEC23872A8F000DA4F8 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE552DEA23872A8F000DA4F8 /* InterestCollectionViewCell.swift */; };
+		CE552DED23872A8F000DA4F8 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE552DEB23872A8F000DA4F8 /* InterestsViewController.swift */; };
+		CE552DEF23872AA4000DA4F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE552DEE23872AA4000DA4F8 /* Main.storyboard */; };
+		CED55AAB238738FE002F6561 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED55AAA238738FE002F6561 /* VideoPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C3B511E70803577CCCACB74 /* Pods_ProyectoAlejandraV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoAlejandraV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F423A2C00B465BC939E6F49 /* Pods-ProyectoAlejandraV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoAlejandraV2.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoAlejandraV2/Pods-ProyectoAlejandraV2.debug.xcconfig"; sourceTree = "<group>"; };
+		97BF20811F4B1F6E47ABCB96 /* Pods-ProyectoAlejandraV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoAlejandraV2.release.xcconfig"; path = "Target Support Files/Pods-ProyectoAlejandraV2/Pods-ProyectoAlejandraV2.release.xcconfig"; sourceTree = "<group>"; };
+		CE552DCC238728C5000DA4F8 /* ProyectoAlejandraV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoAlejandraV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE552DCF238728C5000DA4F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE552DD1238728C5000DA4F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE552DD8238728CA000DA4F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE552DDB238728CA000DA4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE552DDD238728CA000DA4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE552DE4238729D0000DA4F8 /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		CE552DEA23872A8F000DA4F8 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE552DEB23872A8F000DA4F8 /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+		CE552DEE23872AA4000DA4F8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CED55AAA238738FE002F6561 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE552DC9238728C5000DA4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DE7EB3AB3F59F398F254E2 /* Pods_ProyectoAlejandraV2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D34432199D346552D4445D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C3B511E70803577CCCACB74 /* Pods_ProyectoAlejandraV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE552DC3238728C5000DA4F8 = {
+			isa = PBXGroup;
+			children = (
+				CE552DCE238728C5000DA4F8 /* ProyectoAlejandraV2 */,
+				CE552DCD238728C5000DA4F8 /* Products */,
+				D85861B3CFDBA24E8F7E6E8B /* Pods */,
+				50D34432199D346552D4445D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE552DCD238728C5000DA4F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE552DCC238728C5000DA4F8 /* ProyectoAlejandraV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE552DCE238728C5000DA4F8 /* ProyectoAlejandraV2 */ = {
+			isa = PBXGroup;
+			children = (
+				CE552DE3238729C6000DA4F8 /* Model */,
+				CE552DCF238728C5000DA4F8 /* AppDelegate.swift */,
+				CE552DD1238728C5000DA4F8 /* SceneDelegate.swift */,
+				CE552DEE23872AA4000DA4F8 /* Main.storyboard */,
+				CE552DD8238728CA000DA4F8 /* Assets.xcassets */,
+				CE552DDA238728CA000DA4F8 /* LaunchScreen.storyboard */,
+				CE552DDD238728CA000DA4F8 /* Info.plist */,
+				CE552DEA23872A8F000DA4F8 /* InterestCollectionViewCell.swift */,
+				CE552DEB23872A8F000DA4F8 /* InterestsViewController.swift */,
+				CED55AAA238738FE002F6561 /* VideoPlayerViewController.swift */,
+			);
+			path = ProyectoAlejandraV2;
+			sourceTree = "<group>";
+		};
+		CE552DE3238729C6000DA4F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE552DE4238729D0000DA4F8 /* Interest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D85861B3CFDBA24E8F7E6E8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F423A2C00B465BC939E6F49 /* Pods-ProyectoAlejandraV2.debug.xcconfig */,
+				97BF20811F4B1F6E47ABCB96 /* Pods-ProyectoAlejandraV2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE552DCB238728C5000DA4F8 /* ProyectoAlejandraV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE552DE0238728CA000DA4F8 /* Build configuration list for PBXNativeTarget "ProyectoAlejandraV2" */;
+			buildPhases = (
+				7305E8F86E007DEA6528A956 /* [CP] Check Pods Manifest.lock */,
+				CE552DC8238728C5000DA4F8 /* Sources */,
+				CE552DC9238728C5000DA4F8 /* Frameworks */,
+				CE552DCA238728C5000DA4F8 /* Resources */,
+				3EC3F11B84CA4CA6E5A4036E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoAlejandraV2;
+			productName = ProyectoAlejandraV2;
+			productReference = CE552DCC238728C5000DA4F8 /* ProyectoAlejandraV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE552DC4238728C5000DA4F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Iconic;
+				TargetAttributes = {
+					CE552DCB238728C5000DA4F8 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = CE552DC7238728C5000DA4F8 /* Build configuration list for PBXProject "ProyectoAlejandraV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE552DC3238728C5000DA4F8;
+			productRefGroup = CE552DCD238728C5000DA4F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE552DCB238728C5000DA4F8 /* ProyectoAlejandraV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE552DCA238728C5000DA4F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE552DEF23872AA4000DA4F8 /* Main.storyboard in Resources */,
+				CE552DDC238728CA000DA4F8 /* LaunchScreen.storyboard in Resources */,
+				CE552DD9238728CA000DA4F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EC3F11B84CA4CA6E5A4036E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoAlejandraV2/Pods-ProyectoAlejandraV2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoAlejandraV2/Pods-ProyectoAlejandraV2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoAlejandraV2/Pods-ProyectoAlejandraV2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7305E8F86E007DEA6528A956 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoAlejandraV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE552DC8238728C5000DA4F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE552DEC23872A8F000DA4F8 /* InterestCollectionViewCell.swift in Sources */,
+				CE552DE5238729D0000DA4F8 /* Interest.swift in Sources */,
+				CE552DD0238728C5000DA4F8 /* AppDelegate.swift in Sources */,
+				CED55AAB238738FE002F6561 /* VideoPlayerViewController.swift in Sources */,
+				CE552DD2238728C5000DA4F8 /* SceneDelegate.swift in Sources */,
+				CE552DED23872A8F000DA4F8 /* InterestsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE552DDA238728CA000DA4F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE552DDB238728CA000DA4F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE552DDE238728CA000DA4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE552DDF238728CA000DA4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE552DE1238728CA000DA4F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F423A2C00B465BC939E6F49 /* Pods-ProyectoAlejandraV2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52PKB6JY68;
+				INFOPLIST_FILE = ProyectoAlejandraV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloiconic.ProyectoAlejandraV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE552DE2238728CA000DA4F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BF20811F4B1F6E47ABCB96 /* Pods-ProyectoAlejandraV2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52PKB6JY68;
+				INFOPLIST_FILE = ProyectoAlejandraV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloiconic.ProyectoAlejandraV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE552DC7238728C5000DA4F8 /* Build configuration list for PBXProject "ProyectoAlejandraV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE552DDE238728CA000DA4F8 /* Debug */,
+				CE552DDF238728CA000DA4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE552DE0238728CA000DA4F8 /* Build configuration list for PBXNativeTarget "ProyectoAlejandraV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE552DE1238728CA000DA4F8 /* Debug */,
+				CE552DE2238728CA000DA4F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE552DC4238728C5000DA4F8 /* Project object */;
+}
